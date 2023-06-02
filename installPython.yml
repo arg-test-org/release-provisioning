@@ -1,0 +1,33 @@
+---
+- hosts: localhost
+  gather_facts: false
+  become: false
+  tasks:
+  
+    - name: Install Python 3.8.10 using pyenv
+      become: true
+      become_user: REPLACEME
+      command: /opt/homebrew/Cellar/pyenv/2.3.18/bin/pyenv install 3.8.10
+      args:
+        creates: /Users/REPLACEME/.pyenv/versions/3.8.10
+
+    - name: Set Python 3.8.10 as the default version
+      become: true
+      become_user: REPLACEME
+      shell: echo 'export PATH="/Users/REPLACEME/.pyenv/versions/3.8.10/bin:$PATH"' >> ~/.zshrc
+      args:
+        creates: /Users/REPLACEME/.zshrc
+
+    - name: Install required Python packages
+  hosts: localhost
+  become: true
+  become_user: REPLACEME
+  tasks:
+    - name: Install Python packages
+      pip:
+        name: "{{ item }}"
+      with_items:
+        - tox
+        - black
+        - flake8
+        - isort
