@@ -14,7 +14,7 @@
     - name: Set Python 3.8.10 as the default version
       become: true
       become_user: REPLACEME
-      shell: echo 'export PATH="/Users/REPLACEME/.pyenv/versions/3.8.10/bin:$PATH"' >> ~/.zshrc
+      shell: echo 'export PATH="/Users/REPLACEME/.pyenv/versions/3.8.10/bin:$PATH"' >> /Users/REPLACEME/.zshrc
       args:
         creates: /Users/REPLACEME/.zshrc
 
