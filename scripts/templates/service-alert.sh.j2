@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Set your slack webhook url here
+SLACK_WEBHOOK_URL="{{ slackhook }}"
+
+unit=$1
+
+read -d '' payload << EOF
+{
+    "icon_emoji": ":fire:",
+    "username": "alertbot",
+    "attachments": [
+        {
+            "fallback": "Systemd: ${unit} failed to start",
+            "color": "danger",
+            "title": "Systemd: ${unit} failed to start",
+            "text": "The ${unit} systemd unit has crashed, or otherwise failed to start, please manually intervene."
+        }
+    ]
+}
+EOF
+
+curl \
+        --silent \
+        --output /dev/null \
+        -X POST \
+        -H 'Content-Type: application/json' \
+        --data "${payload}" $SLACK_WEBHOOK_URL

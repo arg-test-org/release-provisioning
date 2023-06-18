@@ -1,0 +1,157 @@
+---
+- hosts: localhost
+  gather_facts: no
+  become: yes
+  vars:
+    slackhook: "{{ lookup('env','SLACK_PROVISION_URI') }}"
+    awssm: "{{ lookup('env','SM_ARN') }}"
+  tasks:
+    - name: Create Tunnel Group
+      group:
+        name: tunnel-svc
+        state: present
+
+    - name: Create Tunnel User
+      user:
+        name: tunnel-runner
+        state: present
+
+    - name: Add Users to Group
+      user:
+        name: tunnel-runner
+        groups: tunnel-svc
+        append: yes
+
+    - name: Create a directory for runners
+      ansible.builtin.file:
+        path: /argus/logs/
+        state: directory
+        mode: '0755'
+        owner: tunnel-runner
+        group: tunnel-svc
+
+    - name: Create a gunicorn log
+      ansible.builtin.file:
+        path: /argus/logs/gunicorn.log
+        state: touch
+      become: yes
+      become_user: tunnel-runner
+
+    - name: Create a gunicorn error log
+      ansible.builtin.file:
+        path: /argus/logs/gunicorn_error.log
+        state: touch
+      become: yes
+      become_user: tunnel-runner
+
+    - name: Copy Alerting Service Template
+      template:
+        src: scripts/templates/service-alert.sh.j2
+        dest: /usr/local/bin/systemd-alert
+      become: yes
+
+    - name: Copy Sentry Tunnel Application
+      template:
+        src: scripts/templates/sentry-tunnel.py.j2
+        dest: /argus/app.py
+      become: yes
+      become_user: tunnel-runner
+
+    - name: Register Alerting Service
+      ansible.builtin.copy:
+        dest: /lib/systemd/system/systemd-alert@.service
+        content: |
+          [Unit]
+          Description=Systemd alert
+          
+          [Service]
+          Type=oneshot
+          ExecStart=/usr/local/bin/systemd-alert %i
+          Restart=never
+      become: yes
+      
+    - name: Create service registration
+      ansible.builtin.copy:
+        dest: /etc/systemd/system/sentrytunnel.service
+        content: |
+          [Unit]
+          Description=Gunicorn Sentry Tunnel
+          StartLimitIntervalSec=30
+          StartLimitBurst=2
+          OnFailure=systemd-alert@sentrytunnel.service
+          
+          [Service]
+          User=tunnel-runner
+          Group=tunnel-svc
+          WorkingDirectory=/argus/
+          ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8000 app:app
+          Restart=on-failure
+          StandardOutput=file:/argus/logs/gunicorn.log
+          StandardError=file:/argus/logs/gunicorn_error.log
+          
+          
+          [Install]
+          WantedBy=multi-user.target
+      become: yes    
+
+    - name: Install specific version of Python packages
+      pip:
+        name: 
+          - certifi==2021.5.30
+          - charset-normalizer==2.0.6
+          - click==8.0.1
+          - Flask==2.0.1
+          - Flask-Cors==3.0.10
+          - gunicorn==20.1.0
+          - idna==3.2
+          - itsdangerous==2.0.1
+          - Jinja2==3.0.1
+          - MarkupSafe==2.0.1
+          - requests==2.26.0
+          - six==1.16.0
+          - slack-webhook==1.0.5
+          - urllib3==1.26.7
+          - Werkzeug==2.0.1
+          - boto3==1.26.154
+        executable: pip3
+
+    - name: Enable alerting service
+      ansible.builtin.service:
+        name: systemd-alert@.service
+        enabled: yes
+        daemon_reload: true
+
+    - name: Enable service sentryTunnel
+      ansible.builtin.service:
+        name: sentrytunnel.service
+        enabled: yes
+        state: reloaded
+        daemon_reload: true
+
+    - name: Pause for 5 seconds
+      pause:
+        seconds: 5
+
+    - name: Get service status
+      ansible.builtin.service_facts:
+
+    - name: Send Slack notification when systemd unit successfully running
+      uri:
+        url: "{{ lookup('env','SLACK_PROVISION_URI') }}"
+        method: POST
+        headers:
+          Content-Type: "application/json"
+        body_format: json
+        body:
+          icon_emoji: ":heavy_check_mark:"
+          username: "alertbot"
+          attachments:
+            - fallback: "Provisioner: {{ deployedService }} registered successfully"
+              color: "good"
+              title: "Provisioner: {{ deployedService }} registered successfully"
+              text: "The service {{ deployedService }} has been successfully deployed or updated by the provisioning service."
+      delegate_to: localhost
+      vars:
+        deployedService: "SentryTunnel"
+      when: ansible_facts.services['sentrytunnel.service'].state == 'running'
+    
