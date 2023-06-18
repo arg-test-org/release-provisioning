@@ -125,7 +125,7 @@
       ansible.builtin.service:
         name: sentrytunnel.service
         enabled: yes
-        state: reloaded
+        state: started
         daemon_reload: true
 
     - name: Pause for 5 seconds
