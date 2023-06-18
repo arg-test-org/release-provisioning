@@ -49,6 +49,7 @@
       template:
         src: scripts/templates/service-alert.sh.j2
         dest: /usr/local/bin/systemd-alert
+        mode: '0700'
       become: yes
 
     - name: Copy Sentry Tunnel Application
