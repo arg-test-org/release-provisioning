@@ -129,8 +129,8 @@
         daemon_reload: true
 
     - name: Pause for 5 seconds
-      pause:
-        seconds: 5
+      wait_for:
+        timeout: 5
 
     - name: Get service status
       ansible.builtin.service_facts:
