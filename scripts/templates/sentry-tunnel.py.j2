@@ -39,7 +39,7 @@ def get_token():
 
 doppler_token = get_token()
 project = "auth"
-config = "stg"
+config = "{{ dopplerconf }}"
 url = "https://api.doppler.com/v3/configs/config/secret?project=" + project + "&config=" + config + "&name="
 
 headers = {

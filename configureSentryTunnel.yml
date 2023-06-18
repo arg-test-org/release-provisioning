@@ -5,6 +5,7 @@
   vars:
     slackhook: "{{ lookup('env','SLACK_PROVISION_URI') }}"
     awssm: "{{ lookup('env','SM_ARN') }}"
+    dopplerconf: "{{ lookup('env','DOPPLER_ENV') }}"
   tasks:
     - name: Create Tunnel Group
       group:
