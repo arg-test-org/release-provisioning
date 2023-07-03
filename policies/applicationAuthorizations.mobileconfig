@@ -16,7 +16,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>70928ACF-28D9-4D9F-A4B4-43F1EB3E29CA</string>
+			<string>0B4CAA63-95A9-40DB-A8DC-839DDF9D247B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
@@ -80,6 +80,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.mozilla.firefoxdeveloperedition</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -158,6 +170,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>Calendar</key>
 				<array>
@@ -233,6 +257,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>Camera</key>
 				<array>
@@ -245,6 +281,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>com.intelliscapesolutions.caffeine</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -308,6 +356,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.mozilla.firefoxdeveloperedition</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -386,6 +446,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>MediaLibrary</key>
 				<array>
@@ -461,6 +533,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>Microphone</key>
 				<array>
@@ -473,6 +557,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>com.intelliscapesolutions.caffeine</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -551,6 +647,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>PostEvent</key>
 				<array>
@@ -623,6 +731,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.mozilla.firefoxdeveloperedition</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -701,6 +821,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>ScreenCapture</key>
 				<array>
@@ -773,6 +905,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.mozilla.firefoxdeveloperedition</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -851,6 +995,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>SystemPolicyAllFiles</key>
 				<array>
@@ -926,6 +1082,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>SystemPolicyDesktopFolder</key>
 				<array>
@@ -974,6 +1142,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.mozilla.firefoxdeveloperedition</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -1028,6 +1208,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>SystemPolicyDownloadsFolder</key>
 				<array>
@@ -1076,6 +1268,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.mozilla.firefoxdeveloperedition</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -1154,6 +1358,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>SystemPolicyRemovableVolumes</key>
 				<array>
@@ -1226,6 +1442,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.mozilla.firefoxdeveloperedition</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -1304,6 +1532,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.knollsoft.Rectangle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XSYZ3E4B7D)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.knollsoft.Rectangle</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 			</dict>
 		</dict>
@@ -1321,7 +1561,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>C6A8B71F-7D63-4224-BD3D-62B6A9571D29</string>
+	<string>9B018608-1D43-4892-81F7-6E061CABB469</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
