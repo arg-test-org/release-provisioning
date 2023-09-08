@@ -16,7 +16,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>F95312A1-D08C-4751-821C-B50FF5E6C983</string>
+			<string>EED1E01A-6D35-4744-B1C0-C23AE04C4149</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
@@ -99,13 +99,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>AddressBook</key>
@@ -198,13 +222,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>Calendar</key>
@@ -297,13 +345,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>Camera</key>
@@ -336,13 +408,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>FileProviderPresence</key>
@@ -423,13 +519,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>ListenEvent</key>
@@ -522,13 +642,37 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>MediaLibrary</key>
@@ -621,13 +765,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>Microphone</key>
@@ -660,13 +828,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>Photos</key>
@@ -759,13 +951,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>PostEvent</key>
@@ -858,13 +1074,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>Reminders</key>
@@ -957,13 +1197,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>ScreenCapture</key>
@@ -1056,13 +1320,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>SpeechRecognition</key>
@@ -1155,13 +1443,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>SystemPolicyAllFiles</key>
@@ -1254,13 +1566,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>SystemPolicyDesktopFolder</key>
@@ -1329,13 +1665,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>SystemPolicyDocumentsFolder</key>
@@ -1404,13 +1764,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>SystemPolicyDownloadsFolder</key>
@@ -1479,13 +1863,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>SystemPolicyNetworkVolumes</key>
@@ -1578,13 +1986,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>SystemPolicyRemovableVolumes</key>
@@ -1677,13 +2109,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 				<key>SystemPolicySysAdminFiles</key>
@@ -1776,13 +2232,37 @@
 						<key>Authorization</key>
 						<string>Deny</string>
 						<key>CodeRequirement</key>
-						<string>identifier "org.pqrs.Karabiner-Elements.Settings" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<string>identifier "org.pqrs.Karabiner-EventViewer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
-						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<string>org.pqrs.Karabiner-EventViewer</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_grabber" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "karabiner_observer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G43BCU2T37</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer</string>
+						<key>IdentifierType</key>
+						<string>path</string>
 					</dict>
 				</array>
 			</dict>
@@ -1801,7 +2281,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>DCED8843-B53F-444B-AD6C-DE66F8180741</string>
+	<string>DF2D27CE-B3F4-466D-A39A-6E6B78E2AC56</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
