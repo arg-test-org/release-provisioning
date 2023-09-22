@@ -16,7 +16,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>7FED71FD-3C54-487C-9CB5-CFF0712ED78A</string>
+			<string>0459704C-F2FC-4F0E-88C5-6D1510B05E70</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
@@ -140,6 +140,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -278,6 +290,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>Calendar</key>
 				<array>
@@ -410,6 +434,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -611,6 +647,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>ListenEvent</key>
 				<array>
@@ -746,6 +794,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>MediaLibrary</key>
 				<array>
@@ -878,6 +938,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -1091,6 +1163,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>PostEvent</key>
 				<array>
@@ -1223,6 +1307,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -1361,6 +1457,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>ScreenCapture</key>
 				<array>
@@ -1493,6 +1601,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -1631,6 +1751,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>SystemPolicyAllFiles</key>
 				<array>
@@ -1766,6 +1898,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>SystemPolicyDesktopFolder</key>
 				<array>
@@ -1874,6 +2018,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -1988,6 +2144,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>SystemPolicyDownloadsFolder</key>
 				<array>
@@ -2096,6 +2264,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -2234,6 +2414,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>SystemPolicyRemovableVolumes</key>
 				<array>
@@ -2366,6 +2558,18 @@
 						<string></string>
 						<key>Identifier</key>
 						<string>org.pqrs.Karabiner-Elements.Settings</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -2504,6 +2708,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Deny</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 			</dict>
 		</dict>
@@ -2521,7 +2737,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>514EE0AB-DD7D-44D7-8D26-1B4F87459FF7</string>
+	<string>595D1F7F-9F20-4D59-AFA0-6A24541B4FB9</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
