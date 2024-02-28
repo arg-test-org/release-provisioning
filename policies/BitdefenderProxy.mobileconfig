@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures TCC settings for BDLDaemon to add proxy configurations</string>
+            <key>PayloadDisplayName</key>
+            <string>Bitdefender Proxy Configuration</string>
+            <key>PayloadIdentifier</key>
+            <string>com.bitdefender.epsecurity.BDLDaemonApp.tcc</string>
+            <key>PayloadOrganization</key>
+            <string>ORG_NAME</string>
+            <key>PayloadScope</key>
+            <string>System</string>
+            <key>PayloadType</key>
+            <string>com.apple.TCC.configuration-profile-policy</string>
+            <key>PayloadUUID</key>
+            <string>UUID-HERE</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Services</key>
+            <dict>
+                <key>SystemPolicyNetworkExtensions</key>
+                <array>
+                    <dict>
+                        <key>Identifier</key>
+                        <string>com.bitdefender.cst.net.dci.dci-network-extension</string>
+                        <key>Allowed</key>
+                        <integer>1</integer>
+                    </dict>
+                </array>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Allows BDLDaemon to add proxy configurations</string>
+    <key>PayloadDisplayName</key>
+    <string>Bitdefender TCC Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>com.bitdefender.epsecurity.BDLDaemonApp</string>
+    <key>PayloadOrganization</key>
+    <string>ORG_NAME</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>ANOTHER-UUID-HERE</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

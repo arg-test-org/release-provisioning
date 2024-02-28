@@ -88,8 +88,8 @@
           WorkingDirectory=/argus/
           ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8000 app:app
           Restart=on-failure
-          StandardOutput=file:/argus/logs/gunicorn.log
-          StandardError=file:/argus/logs/gunicorn_error.log
+          StandardOutput=append:/argus/logs/gunicorn.log
+          StandardError=append:/argus/logs/gunicorn_error.log
           
           
           [Install]

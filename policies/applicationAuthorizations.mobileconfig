@@ -16,7 +16,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>0459704C-F2FC-4F0E-88C5-6D1510B05E70</string>
+			<string>E7F3B5EB-28DD-4F52-B8DA-D124A101CF30</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
@@ -1910,6 +1910,30 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.bitdefender.epsecurity.BDLDaemonApp" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GUNFMW623Y)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.bitdefender.epsecurity.BDLDaemonApp</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.bitdefender.EndpointSecurityforMac" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GUNFMW623Y</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.bitdefender.EndpointSecurityforMac</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 				<key>SystemPolicyDesktopFolder</key>
 				<array>
@@ -2737,7 +2761,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>595D1F7F-9F20-4D59-AFA0-6A24541B4FB9</string>
+	<string>F4B6E423-4DF7-42B1-B668-809257A77732</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
